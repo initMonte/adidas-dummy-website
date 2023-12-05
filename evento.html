@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Sitio web oficial de Adidas Argentina, desde donde se puede visualizar las distintas colecciones y productos de la marca, acceder a su E-shop, participar de sus eventos, y ponerse en contacto con la empresa">
+    <meta name="keywords"
+        content="Adidas, Ropa, Indumentaria, Deporte, Futbol, Deportiva, E-shop, Colecciones, Evento, Selección, Argentina, Contacto">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Hurricane&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Iceberg&family=Irish+Grover&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="icon" href="img\adidas-icono.ico">
+    <title>Adidas - Evento</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="blackLine">
+            <h4 class="blackLine-heading">ENVIOS GRATIS A PARTIR DE $14,999</h4>
+        </div>
+        <nav class="navBar">
+            <div class="navBar-logo">
+                <a href="index.html" rel="noopener noreferrer">
+                    <img src="img/adidas_logo.png" width="70px" alt="Logo de Adidas">
+                </a>
+            </div>
+            <ul class="navBar-ul">
+                <li class="navBar-inactivo"><a href="index.html" rel="noopener noreferrer">HOME</a></li>
+                <li class="navBar-inactivo"><a href="colecciones.html" rel="noopener noreferrer">COLECCIONES</a></li>
+                <li class="navBar-activo"><a href="evento.html" rel="noopener noreferrer">EVENTO</a></li>
+                <li class="navBar-inactivo"><a href="contacto.html" rel="noopener noreferrer">CONTACTO</a></li>
+            </ul>
+            <div class="navBar-mediaQuery">
+                <button class="menuResponsive">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </nav>
+        <!-- Menu de navegación responsive -->
+        <div class="navBar-responsive">
+            <ul class="navBar-responsive-ul">
+                <li class="navBar-inactivo"><a href="index.html" rel="noopener noreferrer">HOME</a></li>
+                <li class="navBar-inactivo"><a href="colecciones.html" rel="noopener noreferrer">COLECCIONES</a></li>
+                <li class="navBar-activo"><a href="evento.html" rel="noopener noreferrer">EVENTO</a></li>
+                <li class="navBar-inactivo"><a href="contacto.html" rel="noopener noreferrer">CONTACTO</a></li>
+            </ul>
+        </div>
+    </header>
+    <section class="evento-hero">
+        <h2>¡VAMOS SELECCION!</h2>
+        <h3>NOS UNEN ESTOS COLORES</h3>
+        <img src="img/evento-hero.jpg" alt="Imagen de Messi con indumentaria de la selección Argentina de futbol">
+    </section>
+    <section class="evento-info">
+        <h1>¡EL EVENTO MAS ESPERADO!</h1>
+        <div class="evento-info-fila">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/sMGYUtlgyS4"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            <div>
+                <h3>Es <span>TU</span> oportunidad de conocerlos <span>A ELLOS</span></h3>
+                <p>Participando del evento tenes la posibilidad de conocer a los jugadores de la selección Argentina de
+                    futbol. Si tu sueño es sacarte <span>una foto con Di Maria, tener un autógrafo de Messi y patearle unos
+                    penales al Dibu</span>, este es tu momento para cumplirlo.</p>
+            </div>
+        </div>
+        <div class="evento-info-fila">
+            <div>
+            <h3><span>TU</span> oportunidad de ganar <span>la pelota del mundial</span> 2022</h3>
+            <p>Si ganas no solamente vas a tener una tarde inolvidable con los jugadores, sino que también vas a llevarte la pelota del mundial de Qatar 2022 firmada por ellos.</p>
+        </div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/6wAkL7c-j98"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+        <div class="evento-info-fila">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/UfwGYfqqBWQ"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            <div>
+            <h3>Y <span>TU</span> oportunidad de <span>ganar la camiseta Argentina</span></h3>
+            <p>Como si fuera poco, también ganas la camiseta de la selección que usara este año en el mundial firmada por todo el plantel.</p>
+        </div>
+        </div>
+    </section>
+    <section class="evento-inscripcion">
+        <h3>INGRESA TUS DATOS PARA PARTICIPAR DEL EVENTO</h3>
+        <form action="">
+            <div class="form-campo">
+                <label for="Nombre">Nombre:</label>
+                <input class="contacto-escribir" type="text" placeholder="Pepe">
+            </div>
+            <div class="form-campo">
+                <label for="Apellido">Apellido:</label>
+                <input class="contacto-escribir" type="text" placeholder="Garcia">
+            </div>
+            <div class="form-campo">
+                <label for="E-mail">E-mail:</label>
+                <input class="contacto-escribir" type="email" placeholder="pepegarcia@gmail.com">
+            </div>
+            <div class="form-campo">
+                <label for="telefono">Teléfono:</label>
+                <input class="contacto-escribir" type="tel" placeholder="+54 9 11000000">
+            </div>
+            <div class="form-campo">
+                <label for="Ciudad">Ciudad:</label>
+                <input class="contacto-escribir" type="text" placeholder="San Carlos de Bariloche">
+            </div>
+            <div class="form-campo">
+                <label for="Provincia">Provincia:</label>
+                <input class="contacto-escribir" type="text" placeholder="Rio Negro">
+            </div>
+            <input class="contacto-enviar" type="submit">
+        </form>
+    </section>
+    <footer>
+        <p class="copyright">
+            © Copyright - 2017 - 2022 www.adidas.com.ar, TODOS LOS DERECHOS RESERVADOS. Las fotos contenidas en este
+            site, el logotipo y las marcas son propiedad de www.adidas.com.ar y/o de sus respectivos titulares. Está
+            prohibida la reproducción total o parcial, sin la expresa autorización de la administradora de la tienda
+            virtual.</p>
+    </footer>
+</body>
+<script src="script.js"></script>
+
+</html>

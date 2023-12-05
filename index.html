@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sitio web oficial de Adidas Argentina, desde donde se puede visualizar las distintas colecciones y productos de la marca, acceder a su E-shop, participar de sus eventos, y ponerse en contacto con la empresa">
+    <meta name="keywords" content="Adidas, Ropa, Indumentaria, Deporte, Futbol, Deportiva, E-shop, Colecciones, Evento, Selección, Argentina, Contacto">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hurricane&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Iceberg&family=Irish+Grover&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="icon" href="img\adidas-icono.ico">
+    <title>Adidas - Home</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="blackLine">
+            <h4 class="blackLine-heading">ENVIOS GRATIS A PARTIR DE $14,999</h4>
+        </div>
+        <nav class="navBar">
+            <div class="navBar-logo">
+                <a href="index.html" rel="noopener noreferrer">
+                    <img src="img/adidas_logo.png" width="70px" alt="Logo de Adidas">
+                </a>
+            </div>
+            <ul class="navBar-ul">
+                <li class="navBar-activo"><a href="index.html" rel="noopener noreferrer">HOME</a></li>
+                <li class="navBar-inactivo"><a href="colecciones.html" rel="noopener noreferrer">COLECCIONES</a></li>
+                <li class="navBar-inactivo"><a href="evento.html" rel="noopener noreferrer">EVENTO</a></li>
+                <li class="navBar-inactivo"><a href="contacto.html" rel="noopener noreferrer">CONTACTO</a></li>
+            </ul>
+            <div class="navBar-mediaQuery">
+                <button class="menuResponsive">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </nav>
+        <!-- Menu de navegación responsive -->
+        <div class="navBar-responsive">
+            <ul class="navBar-responsive-ul">
+                <li class="navBar-activo"><a href="index.html" rel="noopener noreferrer">HOME</a></li>
+                <li class="navBar-inactivo"><a href="colecciones.html" rel="noopener noreferrer">COLECCIONES</a></li>
+                <li class="navBar-inactivo"><a href="evento.html" rel="noopener noreferrer">EVENTO</a></li>
+                <li class="navBar-inactivo"><a href="contacto.html" rel="noopener noreferrer">CONTACTO</a></li>
+            </ul>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="slideshow-container">
+
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+                <div class="mySlides-content">
+
+                </div>
+                <img src="img/hero1.jpg" alt="Imagen grande de botines Adidas con el logo de la marca">
+            </div>
+            <div class="mySlides fade">
+                <div class="mySlides-content">
+                    <h2>Conocé nuestro e-shop</h2>
+                    <button><a href="https://www.adidas.com.ar/hombre?grid=true">E-Shop</a></button>
+                </div>
+                <img src="img/hero-adidasOriginals.jpg" alt="Imagen grande de zapatilla Adidas de la colección Adidas Originals">
+            </div>
+            <div class="mySlides fade">
+                <div class="mySlides-content">
+                    <div class="mySlides-text">
+                        
+                        <p>Es tu oportunidad para CONOCER a la SELECCION ARGENTINA</p>
+                    </div>
+                    <button><a href="evento.html">Enterate más</a></button>
+                </div>
+                <img src="img/heroArgentina.jpg" alt="Imagen grande de Messi con la indumentaria de la selección Argentina de futbol">
+            </div>
+
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+
+        <!-- The dots/circles -->
+        <div>
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+    </section>
+    <section class="colecciones">
+        <h1>¡Conocé nuestras colecciones más populares!</h1>
+        <div class="colecciones-container">
+            <div class="colecciones-populares">
+                <a href="coleccion-running.html" rel="noopener noreferrer">
+                    <img src="img/running.jpg" width="300px"
+                        alt="Imagen enfocando las piernas y zapatillas de una persona corriendo">
+                    <h3>Running</h3>
+                </a>
+            </div>
+            <div class="colecciones-populares">
+                <a href="coleccion-futbol.html" rel="noopener noreferrer">
+                    <img src="img/futbol.jpg" width="300px" alt="Imagen de un botin marca Adidas">
+                    <h3>Fútbol</h3>
+                </a>
+            </div>
+            <div class="colecciones-populares">
+                <a href="coleccion-adidasOriginals.html" rel="noopener noreferrer">
+                    <img src="img/adidasOriginals.jpg" width="300px"
+                        alt="Imagen de una persona usando zapatillas y medias de la linea Adidas Originals">
+                    <h3>Adidas Originals</h3>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="beneficios">
+        <h3>Con tu compra disfrutá de estos beneficios:</h3>
+        <div class="beneficios-container">
+            <div class="beneficioX">
+                <div class="img">
+                    <img src="img/beneficioCuotas.svg" alt="Imagen de una tarjeta de credito">
+                </div>
+                <h5>12 cuotas sin interés</h5>
+            </div>
+            <div class="beneficioX">
+                <div class="img">
+                    <img src="img/beneficioDevolucion.svg" alt="Imagen de 2 flechas simbolizando cambio">
+                </div>
+                <h5>Devolución sin cargo</h5>
+            </div>
+            <div class="beneficioX">
+                <div class="img">
+                    <img src="img/beneficioEnvio.svg" alt="Imagen de un camion">
+                </div>
+                <h5>Envío gratis</h5>
+            </div>
+        </div>
+    </section>
+    <section class="evento">
+        <h2> ¡Anotate al sorteo! Podes ganar la camiseta de Argentina, y CONOCER A LOS JUGADORES DE LA SELECCION.</h2>
+        <a href="evento.html" rel="noopener noreferrer">Anotate ACA</a>
+    </section>
+    <footer>
+        <p class="copyright">
+            © Copyright - 2017 - 2022 www.adidas.com.ar, TODOS LOS DERECHOS RESERVADOS. Las fotos contenidas en este
+            site, el logotipo y las marcas son propiedad de www.adidas.com.ar y/o de sus respectivos titulares. Está
+            prohibida la reproducción total o parcial, sin la expresa autorización de la administradora de la tienda
+            virtual.</p>
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>
