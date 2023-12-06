@@ -11,11 +11,11 @@
   For this final project, the first step was to make a **benchmarking** on different types of websites. Next, the **wireframe and wireflow** of
   the website, which you can see here done in Figma:
   
-  [link to Wireframe](https://www.figma.com/file/Mnn4x21ILWosBMUEwKkSXL/Wireframe-Adidas-website?node-id=0%3A1) | [link to Wireflow](https://www.figma.com/file/jyE3wCKpI84tnl6rbgaUuw/WireFlow-Adidas-website?node-id=0%3A1)
+  [link to Wireframe](https://www.figma.com/file/uKBpbTSfV2qLdI47vn4YSY/Wireframe-Adidas-website?type=design&mode=design&t=iLNc55ZsqZK0HsMG-1) | [link to Wireflow](https://www.figma.com/file/jlryO0UmEstJ7l6EAhKoGj/WireFlow-Adidas-website?type=whiteboard&t=iLNc55ZsqZK0HsMG-1)
   
   Then, the **Look&Feel** if the website pages, also design in Figma:
   
-  [link to Look&Feel](https://www.figma.com/file/1xGlkX9EqBI7tXtvlWH6F5/Look%26Feel-Adidas-website?node-id=0%3A1)
+  [link to Look&Feel](https://www.figma.com/file/roy4kL3zYSGJ9aec5SL666/Look%26Feel-Adidas-website?type=design&mode=design&t=iLNc55ZsqZK0HsMG-1)
   
   Finally, the website was coded using HTML, CSS, and minimal amount of JavaScript. The **final result** can be seen here:
   
@@ -33,11 +33,11 @@ ___
   Para este trabajo final se pidio primero hacer un **benchmarking** en distinto tipo de sitios web. Despues hacer 
   el **wireframe y wireflow** del sitio web, los cuales puedes ver aqui hechos en Figma:
   
-  [link al Wireframe](https://www.figma.com/file/Mnn4x21ILWosBMUEwKkSXL/Wireframe-Adidas-website?node-id=0%3A1) | [link al Wireflow](https://www.figma.com/file/jyE3wCKpI84tnl6rbgaUuw/WireFlow-Adidas-website?node-id=0%3A1)
+  [link al Wireframe](https://www.figma.com/file/uKBpbTSfV2qLdI47vn4YSY/Wireframe-Adidas-website?type=design&mode=design&t=iLNc55ZsqZK0HsMG-1) | [link al Wireflow](https://www.figma.com/file/jlryO0UmEstJ7l6EAhKoGj/WireFlow-Adidas-website?type=whiteboard&t=iLNc55ZsqZK0HsMG-1)
     
   Luego se pidio hacer el **Look&Feel** de las paginas del sitio web, tambien hecho en Figma:
   
-  [link al Look&Feel](https://www.figma.com/file/1xGlkX9EqBI7tXtvlWH6F5/Look%26Feel-Adidas-website?node-id=0%3A1)
+  [link al Look&Feel](https://www.figma.com/file/roy4kL3zYSGJ9aec5SL666/Look%26Feel-Adidas-website?type=design&mode=design&t=iLNc55ZsqZK0HsMG-1)
     
   Finalmente se pidio codear el sitio web usando HTML, CSS y un minimo de JavaScript. El **resultado final** puede verse aqui:
   
