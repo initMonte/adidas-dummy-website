@@ -19,7 +19,7 @@
   
   Finally, the website was coded using HTML, CSS, and minimal amount of JavaScript. The **final result** can be seen here:
   
-  [link to dummy Adidas website](https://initmonte.github.io/Adidas-DummyWebsite/)
+  [link to dummy Adidas website](https://initmonte.github.io/adidas-dummy-website/)
   
   P.S: Please note that the links that should redirect you to the official Adidas e-shop, colections or products may be broken if the real website suffer some changes.
   
@@ -41,6 +41,6 @@ ___
     
   Finalmente se pidio codear el sitio web usando HTML, CSS y un minimo de JavaScript. El **resultado final** puede verse aqui:
   
-  [link al sitio web ficticio de Adidas](https://initmonte.github.io/Adidas-DummyWebsite/)
+  [link al sitio web ficticio de Adidas](https://initmonte.github.io/adidas-dummy-website/)
   
   PD: Tener en cuenta que los links que deberian llevarlo al sitio web oficial ya sea al e-shop, colecciones o productos, pueden estar rotos si Adidas los cambia.
