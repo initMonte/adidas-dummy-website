@@ -1,7 +1,7 @@
 # Adidas-DummyWebsite
 
--English at the beggining
--Español al final
+- English at the beggining
+- Español al final
 
 ## English
 
