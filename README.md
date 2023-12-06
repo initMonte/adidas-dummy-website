@@ -23,7 +23,7 @@
   
   P.S: Please note that the links that should redirect you to the official Adidas e-shop, colections or products may be broken if the real website suffer some changes.
   
-### /English
+___
 
 ## Español
 
@@ -44,5 +44,3 @@
   [link al sitio web ficticio de Adidas](https://initmonte.github.io/Adidas-DummyWebsite/)
   
   PD: Tener en cuenta que los links que deberian llevarlo al sitio web oficial ya sea al e-shop, colecciones o productos, pueden estar rotos si Adidas los cambia.
-
-### /Español
